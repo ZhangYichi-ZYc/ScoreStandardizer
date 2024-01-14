@@ -61,5 +61,9 @@ int main() {
 		std::cout << student.name << "\t原始分：" << student.original_score << "\t赋分：" << student.adjusted_score << std::endl;
 	}
 
+	std::cout << "\n按回车键关闭窗口";
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+	std::cin.get();
+
 	return 0;
 }
